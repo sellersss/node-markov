@@ -1,11 +1,33 @@
 {
-  "name": "markov",
+  "name": "markov-machine",
   "version": "1.0.0",
-  "description": "",
+  "description": "Using an algorithm for generating realistic machine-made text from an original source text.",
   "main": "makeText.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sellers Crisp",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fs": "^0.0.1-security",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sellersss/node-markov.git"
+  },
+  "keywords": [
+    "node",
+    "markov",
+    "markcov",
+    "chains",
+    "markov",
+    "machine"
+  ],
+  "bugs": {
+    "url": "https://github.com/sellersss/node-markov/issues"
+  },
+  "homepage": "https://github.com/sellersss/node-markov#readme"
 }
